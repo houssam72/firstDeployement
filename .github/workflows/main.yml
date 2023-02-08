@@ -12,5 +12,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: houssamtestreact
-        password: X4sHwzYO)4qyFRmJSo6(
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir : public_html/
